@@ -1,5 +1,4 @@
 import time
-import numpy as np
 import base64
 import streamlit as st
 import textwrap
@@ -154,7 +153,7 @@ def process_user_query(user_query: str):
 
             **OBSERVATION**:
             [
-            {price_comparison}
+            `{price_comparison}`
             ]
 
             **THOUGHT**: I found competitor listings for the same jacket.

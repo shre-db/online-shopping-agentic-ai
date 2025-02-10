@@ -1,0 +1,7 @@
+name: agentic-ai
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - streamlit=1.42.0=pyhd8ed1ab_0
+prefix: /home/ml3au/anaconda3/envs/agentic-ai
